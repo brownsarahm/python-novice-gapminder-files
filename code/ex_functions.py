@@ -50,7 +50,6 @@ df = pd.DataFrame(data= ___, columns=['val'])
 
 ## Functions Excercise 6
 
-
 df = pandas.read_csv('gapminder_gdp_asia.csv', index_col=0)
 japan = df.ix['Japan']
 
