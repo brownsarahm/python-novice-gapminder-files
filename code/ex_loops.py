@@ -17,8 +17,9 @@ total = 0
 for char in "tin":
     total = total + 1
 
-# fill in the blanks to  complete each of the following
+
 ## Loop Excercise 2 -
+# fill in the blanks to  complete each of the following
 
 # reverse the string and print nit
 original = "tin"
@@ -49,7 +50,7 @@ print(result)
 # Create acronym: ["red", "green", "blue"] => "RGB"
 # write the whole thing
 
-## ist Excercise 3
+## List Excercise 3
 1. Read the code below and try to identify what the errors are without running it.
 1. Run the code, and read the error message. What type of error is it?
 1. Fix the error.
