@@ -27,7 +27,7 @@ cd your/actual/path/python-novice-gapminder-files/
 git pull
 ```
 
-If you downloaded and made changes to the notebooks, you may get an error.  Since Jupyter notebooks are not plain text files, it can be hard to merge them. You have a few options for dealing with this.  
+If you downloaded and made changes to the notebooks, your merge may fail, with a warning about which of your changes will be overwritten.  Since Jupyter notebooks are not plain text files, it can be hard to merge them. You have a few options for dealing with this.  
 
 If you just ran the notebooks and didn't make any changes that are important fo you to keep you can reset it to the last commit (which will be one of mine) with
 
@@ -37,21 +37,11 @@ git reset HEAD --hard
 
 Then you should be able to pull.
 
-If you made changes that you want to keep, you can change the filenames of those notebooks and then .gitignore your files.
+If you made changes that you want to keep, you can change the filenames of those notebooks, then git will be able to pull my changes without caring that you have other files.  
 
 ```bash
 mv original_notebook.ipynb my_copy_original_notebook.ipynb
-nano .gitignore
 ```
 
-Then, in nano, add the file name of the file you just created
-```
-*.ipynb_checkpoints
-my_copy_original_notebook.ipynb
-```
-Now, git pull should work. If you still have problems, submit and issue on this reposity that includes all of the steps you did. 
-
-
-
-
+Now, git pull should work. If you still have problems, submit an issue on this reposity that includes all of the steps you did. 
 
