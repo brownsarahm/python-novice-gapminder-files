@@ -1,1 +1,5 @@
+# always ignore this, it's cache that shouldn't be shared
 .ipynb_checkpoints/
+
+# uncomment the line below on student branches
+/instructor_training/
