@@ -3,3 +3,8 @@
 
 # uncomment the line below on student branches
 instructor_resources/
+
+#students already have and don't needd new copies
+code/
+data/
+#worksheets/ #commented assuming that was changed
